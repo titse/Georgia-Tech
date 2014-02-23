@@ -27,11 +27,12 @@ h3 > a:hover{
 .red{
 	color: #C0392B;
 }
+
 #container{
 	width:970px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 70px;
 }
 
 #left{
@@ -56,19 +57,13 @@ h3 > a:hover{
 #title-box > a:hover{
 	text-decoration: none;
 }
-#donate-area{
-	text-align: center;
-	margin-top: 30px;
-}
+
 #four-section{
 	margin-top: 10px;
 	background:#E74C3C;
 	height:100px;
 }
-.sponsor-area{
-	margin-top: 10px;
-	height:80px;
-}
+
 address{
 	font-size: 16px;
 }
@@ -85,8 +80,7 @@ address{
 .caption > h3{
 	color: #2980B9;
 }
-#vayalogo{
-}
+
 #facebook-icon{
 	margin-left: 60px;
 }
@@ -152,12 +146,7 @@ address{
 .contents-list > li{
 	margin-top: 10px;
 }
-#committee >thead, #committee > tbody{
-	background: white;
-}
-#horsie{
-	margin-left: 200px;
-}
+
 a.div-link{
 	display:block;
     width:25%;
@@ -184,15 +173,7 @@ blockquote p{
 #hhlogo{
 	margin-left: 24px;
 }
-#directions-link{
-	color: black;
-}
-#directions-link:hover{
-	text-decoration: none;
-}
-#horse-smaller{
-	margin-top: 15px;
-}
+
 #footer-span > a{
 	margin-left: 15px;
 }
@@ -208,67 +189,20 @@ blockquote p{
 .clear{
 	clear: both;
 }
-.pageant-profile-pic{
-	margin-left: 20px;
-	margin-bottom: 20px;
-}
-.pageant-thumbnail{
-	text-align: center;
-	background: transparent;
-	border: none;
-}
-.pageant-thumbnail> .caption > h4{
-	margin-bottom: 0;
-}
-.pageant-thumbnail.active{
-	background: #fff;
+
+.shadow {
+    -moz-box-shadow: 0 0 5px 1px #afaeae;
+    -webkit-box-shadow: 0 0 5px 1px #afaeae;
 }
 
-/* Navbar shiets */
-
-
-.top-part{
-	background-image: url("../../images/background3.png");
-		background-attachment: scroll;
-	background-repeat: no-repeat;
-	//background-position: center;
-	background-size: 100%;
-
+#logo {
+	width:170px;
 }
 
-.navbar .nav.pull-right {
-  margin-left: 10px;
-  margin-right: 0;
-}
-
-.navbar-inner3 {
+.quicklinks {
   font-size: .9em;
   //padding-left: 20px;
   //padding-right: 40px;
-  
-  background-color: transparent;
-  background-repeat: repeat-x;
-  background-color: rgba(255, 255, 255, .89);
+
   
 }
-
-.navbar.navbar-fixed-top .nav  > li > a:hover {
-  background-color: transparent;
-  color: grey;
-  text-decoration: none;
-}
-.navbar.navbar-fixed-top .nav .active > a, .navbar.navbar-fixed-top .nav .active > a:hover {
-  color: #000; /* changed this stuff */
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.navbar.navbar-fixed-top .nav > li > a {
-  float: none;
-  padding: 10px 10px 11px;
-  line-height: 19px;
-  color: red;
-  text-decoration: none;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-}
-
