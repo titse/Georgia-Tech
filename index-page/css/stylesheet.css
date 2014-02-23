@@ -17,8 +17,11 @@ body{
 	text-align:center;
 	padding-top: 15px;
     font-size: 24px;
-    border-top: 5px 5px;
     color:white;
+    background-color: #537F66;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #IA-head{
@@ -30,8 +33,7 @@ body{
 .container{
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
 
 }
 
