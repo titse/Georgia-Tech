@@ -13,7 +13,23 @@
 		<!--Javascripts-->
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="js/boostrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nav.js"></script>
 		<script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('#nav').onePageNav({
+          begin: function() {
+          console.log('start')
+          },
+          end: function() {
+          console.log('stop')
+          }
+        });
+      });
+    </script> 
+
 	</head>
 
 	<body>
@@ -21,25 +37,58 @@
     <nav class="navbar navbar-default navbar-fixed-top shadow" role="navigation">
         <div class="container-fluid">
           <div class="pull-right">
-            <ul class="nav navbar-nav navbar-right" id="nav">
-              <li class="active quicklinks"><a href="#home" data-toggle="tab">
-                Home
-              </a></li>
-              <li><a href="#popular" data-toggle="tab">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active quicklinks">
+                <a href="#home" data-toggle="tab">Home</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Current Students
-              </a></li>
-              <li><a href="#available" data-toggle="tab">
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Prospective Students
-              </a></li>
-              <li><a href="#camera" data-toggle="tab">
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Faculty
-              </a></li>
-              <li><a href="#camera" data-toggle="tab">
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Alumni
-              </a></li>
-              <li><a href="#camera" data-toggle="tab">
-                Parents
-              </a></li>
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                    <li><a href="#">Something</a></li>
+                  </ul>
+              </li>
               <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Search/Directory">
@@ -54,33 +103,33 @@
 
     <!-- Left Sidebar --> 
     <div id="container">
-      <div id="left">
+      <ul id="left">
         <div id="title-box">
             <img src="images/logobox.png" id="logo">
         </div>
-        <h3 id="home">
+        <li class="current">
           <a href="main.html">Home</a>
-        </h3>
-        <h3 id="something">
+        </li>  
+        <li id="something">
           <a href="#">About</a>
-        </h3>
-        <h3 id="else">
+        </li>
+        <li id="else">
           <a href="#">Academics</a>
-        </h3>
-        <h3 id="should">
+        </li>
+        <li id="should">
           <a href="#">Admissions</a>
-        </h3>
-        <h3 id="go">
+        </li>
+        <li id="go">
           <a href="#">Research</a>
-        </h3>
-        <h3 id="here">
+        </li>
+        <li id="here">
           <a href="#">Athletics</a>
-        </h3>
-        <h3 id="here">
+        </li>
+        <li id="here">
           <a href="#">Contact</a>
-        </h3>
-      </div>
-      <!-- End of Left Sidebare-->
+        </li>
+      </ul>
+      <!-- End of Left Sidebar-->
 
       <!--Right Side -->
       <div id="right">
