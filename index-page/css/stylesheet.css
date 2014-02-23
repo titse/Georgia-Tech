@@ -26,9 +26,13 @@ body{
 
 #IA-head{
 
-     font-family: 'Muli', 'Sintony', san-serif;  
+     font-family: 'Muli', 'Sintony', Arial, san-serif;  
      font-weight: 800px;
      text-decoration: underline;
+}
+#GSU{
+    font-family: 'Muli', 'Sintony', Arial, san-serif;
+    font-variant: small-caps;
 }
 .container{
     margin-right: auto;
