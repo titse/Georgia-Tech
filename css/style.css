@@ -1,6 +1,6 @@
 body{
 	font-family: 'Roboto Condensed', sans-serif;
-	background: #ECF0F1;
+	background-image: url("../images/crossword.png");
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -12,8 +12,10 @@ h1{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
 h3{
-	margin-top: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-size: 21px;
 }
 h3 > a{	
@@ -24,10 +26,6 @@ h3 > a:hover{
 	text-decoration: none;
 }
 
-.red{
-	color: #C0392B;
-}
-
 #container{
 	width:970px;
 	margin-left: auto;
@@ -36,19 +34,49 @@ h3 > a:hover{
 }
 
 #left{
-	width:220px;
+	width:230px;
+	position:fixed;
 	float:left;
-	padding-bottom: 20px;
 }
+
+#left li{
+	margin-bottom: 0px;
+	list-style: none;
+}
+
+#left a {
+	background-color: #0027af;
+	color: #282828;
+	display:block;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 230px;
+	border-left: 5px solid #282828;
+	letter-spacing: 1px;
+}
+
+#left a:hover {
+	background: #cc0000;
+	border-left: 5px solid #282828;
+}
+#left .current a {
+	background: #012c51;
+	color: #FFF;
+}
+
+
 #right{
 	width:720px;
 	float:right;
 	font-family: 'Open Sans', sans-serif;
 }
 #title-box{
-	background: #C0392B;
-	border: 1px solid #c0392b;
-	padding: 15px;
+	background: #0027af;
+	border: 1px solid #0027af;
+	padding-left: 10px;
 	color: white;
 }
 #title-box >a{
@@ -60,7 +88,7 @@ h3 > a:hover{
 
 #four-section{
 	margin-top: 10px;
-	background:#E74C3C;
+	background:#1942b3;
 	height:100px;
 }
 
@@ -196,7 +224,7 @@ blockquote p{
 }
 
 #logo {
-	width:170px;
+	width:200px;
 }
 
 .quicklinks {
