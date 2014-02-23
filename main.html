@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default navbar-fixed-top shadow" role="navigation">
         <div class="container-fluid">
           <div class="pull-right">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="nav">
               <li class="active quicklinks"><a href="#home" data-toggle="tab">
                 Home
               </a></li>
@@ -40,9 +40,12 @@
               <li><a href="#camera" data-toggle="tab">
                 Parents
               </a></li>
-              <li><a href="#camera" data-toggle="tab">
-                Contact Us
-              </a></li>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search/Directory">
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+              </form>
             </ul>
           </div>
         </div>
@@ -53,12 +56,10 @@
     <div id="container">
       <div id="left">
         <div id="title-box">
-          <a href="index.html">
-            <img src="images/logo.png" id="logo">
-          </a>
+            <img src="images/logobox.png" id="logo">
         </div>
         <h3 id="home">
-          <a href="index.html">Home</a>
+          <a href="main.html">Home</a>
         </h3>
         <h3 id="something">
           <a href="#">About</a>
@@ -75,6 +76,9 @@
         <h3 id="here">
           <a href="#">Athletics</a>
         </h3>
+        <h3 id="here">
+          <a href="#">Contact</a>
+        </h3>
       </div>
       <!-- End of Left Sidebare-->
 
@@ -88,13 +92,13 @@
           </ol>
           <div class="carousel-inner">
             <div class="item active">
-              <img src="images/banner01.jpg" alt="">
+              <img src="images/placeholder.png" alt="">
             </div>
             <div class="item">
-              <img src="images/banner02.jpg" alt="">
+              <img src="images/placeholder.png" alt="">
             </div>
             <div class="item">
-              <img src="images/banner03.jpg" alt="">
+              <img src="images/placeholder.png" alt="">
             </div>
           </div>
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -124,7 +128,7 @@
           </a>
         </div>
 
-        <h3>News &amp; Announcements</h3>
+        <h2>News &amp; Announcements</h2>
         <div id="news-section" class="row">
           <div class="news-section-block">
             <div class="thumbnail" style="height:455px;">
@@ -169,13 +173,13 @@
     </div>
 
     <div class="footer">
-      <p>Copyright 2014 Georgia State University
+      <p>Copyright &copy; 2014 <a href="main.html">Georgia State University</a> | Atlanta, GA 30302 | (404) 413-2000
         <span id="footer-span" class="pull-right">
-          <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a href="about.html">About</a>
-          <a href="about.html">About</a>
-          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="research.html">Research</a>
+          <a href="athletics.html">Athletics</a>
         </span>
       </p>
 
