@@ -69,10 +69,10 @@ body{
 }
 
 .pic {
-  border: 5px solid #fff; 
+  border: 10px solid #fff; 
   float: left;
   height: 600px;
-  width:  310px;
+  width:  315px;
 
   overflow: hidden;
    transition: width 2s;
