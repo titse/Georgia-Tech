@@ -17,8 +17,11 @@ body{
 	text-align:center;
 	padding-top: 15px;
     font-size: 24px;
-    border-top: 5px 5px;
     color:white;
+    background-color: #537F66;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #IA-head{
@@ -30,8 +33,7 @@ body{
 .container{
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
 
 }
 
@@ -54,8 +56,8 @@ body{
     float:left; 
     display: block;
     text-align: center; 
-    
-    margin-right: 25px;
+    padding-left: 50px;
+    margin-right: 15px;
     
 }
 
@@ -71,8 +73,8 @@ body{
 .pic {
   border: 10px solid #fff; 
   float: left;
-  height: 600px;
-  width:  315px;
+  height: 500px;
+  width:  215px;
 
   overflow: hidden;
    transition: width 2s;
