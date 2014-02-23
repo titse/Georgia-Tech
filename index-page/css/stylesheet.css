@@ -1,0 +1,24 @@
+/* CSS file for index page*/
+
+
+.IA-title {
+	text-align:center;
+	padding-top: 15px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.page-content{
+	padding-left: 50px;
+	padding-right: 50px; 
+	padding-top: 75px; 
+	margin-left 15%;
+	marigin-right: 15%; 
+
+}
