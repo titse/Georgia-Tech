@@ -49,19 +49,22 @@ body{
 
 }
 .table {
-    padding:  0 100px 100px 0;
+    padding:  0 15px 100px 0;
     position: relative;
-    margin-left: 100px;
-    margin-right: 100px;
-    min-width: 95%
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 97%;
+	padding-bottom: 15px;
 }
 .cols{
-    position: relative;
+   
     float:left; 
     display: block;
     text-align: center; 
-    padding-left: 50px;
+    padding-left: 15px;
+	margin-top: 15px;
     margin-right: 15px;
+	padding-bottom:100px
     
 }
 
@@ -75,10 +78,11 @@ body{
 }
 
 .pic {
-  border: 10px solid #fff; 
+	/*the pictures are 400x200*/
+  border: 8px solid #fff; 
   float: left;
-  height: 500px;
-  width:  215px;
+  height: 410px;
+  width:  210px;
 
   overflow: hidden;
    transition: width 2s;
@@ -115,7 +119,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
         height: 40px;
         text-align: center;
         color: #FFF;
-        font-size: 14pt;
+        font-size: 10pt;
         clear: both;
         vertical-align: bottom;
         z-index: 11000;
