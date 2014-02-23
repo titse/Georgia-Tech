@@ -26,6 +26,13 @@ h3 > a:hover{
 	text-decoration: none;
 }
 
+p,
+ul {
+	margin: 0 auto;
+	padding: 0;
+	
+} 
+
 #container{
 	width:970px;
 	margin-left: auto;
@@ -67,6 +74,16 @@ h3 > a:hover{
 	color: #FFF;
 }
 
+#leftheader{
+	color: #282828;
+	display:block;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 230px;
+	letter-spacing: 1px;
+}
 
 #right{
 	width:720px;
@@ -106,7 +123,7 @@ address{
 	float:left;
 }
 .caption > h3{
-	color: #2980B9;
+	color: #103e94;
 }
 
 #facebook-icon{
@@ -230,7 +247,5 @@ blockquote p{
 .quicklinks {
   font-size: .9em;
   //padding-left: 20px;
-  //padding-right: 40px;
-
-  
+  //padding-right: 40px; 
 }
