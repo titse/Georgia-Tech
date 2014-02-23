@@ -13,23 +13,6 @@
 		<!--Javascripts-->
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="js/boostrap.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.nav.js"></script>
-		<script src="js/main.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        $('#nav').onePageNav({
-          begin: function() {
-          console.log('start')
-          },
-          end: function() {
-          console.log('stop')
-          }
-        });
-      });
-    </script> 
-
 	</head>
 
 	<body>
@@ -38,55 +21,72 @@
         <div class="container-fluid">
           <div class="pull-right">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active quicklinks">
-                <a href="#home" data-toggle="tab">Home</a>
-              </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
-                Current Students
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                Home
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
+                    <li><a href="main.html">Homepage</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="athletics.html">Athletics</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
-                Prospective Students
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                Students
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
+                    <li><a href="students.html">Students Life</a></li>
+                    <li><a href="#">Prospective Students</a></li>
+                    <li><a href="#">Current Students</a></li>
+                    <li><a href="#">Graduate Students</a></li>
+                    <li><a href="#">Deadlines &amp; Enrollment</a></li>
+                    <li><a href="#">Class Schedule</a></li>
+                    <li><a href="#">Financial Aid</a></li>
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                Parents &amp; Visitors
+                <span class="caret"></span>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="visitors.html">For Parents and Visitors</a></li>
+                    <li><a href="#">Campus Map</a></li>
+                    <li><a href="#">Parking</a></li>
+                    <li><a href="#">Finances</a></li>
+                    <li><a href="#">Getting Involved</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
                 Faculty
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
+                    <li><a href="faculty.html">About Faculty &amp; Staff</a></li>
+                    <li><a href="#">Facilities &amp; Services</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Finances</a></li>
+                    <li><a href="#">Human Resources</a></li>
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
                 Alumni
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Something</a></li>
+                    <li><a href="alumni.html">About GSU Alumni</a></li>
+                    <li><a href="#">Getting Involved</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Services</a></li>
                   </ul>
               </li>
               <form class="navbar-form navbar-left" role="search">
@@ -110,8 +110,8 @@
         <li class="current">
           <a href="main.html">Home</a>
         </li>  
-        <li id="something">
-          <a href="#">About</a>
+        <li id="about.html">
+          <a href="about.html">About</a>
         </li>
         <li id="else">
           <a href="#">Academics</a>
