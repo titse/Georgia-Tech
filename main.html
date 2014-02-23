@@ -2,41 +2,150 @@
 	<head>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<title>Georgia State University | Home</title>
+		<meta name="description" content="Information architecture redesign of Georgia State University academic website (https://www.gsu.edu)">
 		<meta name="author" content="Cindy Chen, Victoria Ly, Tiffany Tse">
 		<meta charset="utf-8">
 		
+    <!--Boostrap Stylesheet-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/bjqs.css">
-		<link rel="stylesheet" href="css/main.css">
-		
+    <!--Our Main stylesheet-->
+		<link rel="stylesheet" href="css/style.css">
+		<!--Javascripts-->
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    	<script src="js/bjqs-1.3.min.js"></script>
+    <script src="js/boostrap.min.js"></script>
 		<script src="js/main.js"></script>
 	</head>
 
 	<body>
-		<div class="container">
-			<a href="https://gsu.edu"><img src="images/logo.png" width="100px"></a>
-			<h1> Hello, world!</h1>
+    <div id="container">
+      <!--Left Sidebar-->
+      <div id="left">
+        <div id="title-box">
+          <a href="index.html">Struggle is real
+            <br>
+              <h1>So amazingly real</h1>
+          </a>
+        </div>
+        <h3 id="home">
+          <a href="index.html">Home</a>
+        </h3>
+        <h3 id="about">
+          <a href="#">About</a>
+        </h3>
+        <h3 id="about">
+          <a href="#">About</a>
+        </h3>
+        <h3 id="about">
+          <a href="#">About</a>
+        </h3>
+        <h3 id="about">
+          <a href="#">About</a>
+        </h3>
+        <h3 id="about">
+          <a href="#">About</a>
+        </h3>
+      </div>
+      <!-- End of Left Sidebare-->
 
-			<div id="banner-fade">
-				<ul class="bjqs">
-		          <li><img src="images/banner01.jpg" title="Automatically generated caption"></li>
-		          <li><img src="images/banner02.jpg" title="Automatically generated caption"></li>
-		          <li><img src="images/banner03.jpg" title="Automatically generated caption"></li>
-		        </ul>
-			</div>
-		</div>
-		<script class="secret-source">
-			jQuery(document).ready(function($) {
+      <!--Right Side -->
+      <div id="right">
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/banner01.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/banner02.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/banner03.jpg" alt="">
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
 
-		       $('#banner-fade').bjqs({
-			        height      : 320,
-			        width       : 620,
-			        responsive  : true
-		        });
-		    });
-		</script>
-		
+        <div id="four-section">
+          <a class="div-link" href="#">
+            <h3>Something</h3>
+            <p>Paragraph here</p>
+          </a>
+          <a class="div-link" href="#">
+            <h3>Something</h3>
+            <p>Paragraph here</p>
+          </a>
+          <a class="div-link" href="#">
+            <h3>Something</h3>
+            <p>Paragraph here</p>
+          </a>
+          <a class="div-link" href="#">
+            <h3>Something</h3>
+            <p>Paragraph here</p>
+          </a>
+        </div>
+
+        <h3>News &amp; Announcements</h3>
+        <div id="news-section" class="row">
+          <div class="news-section-block">
+            <div class="thumbnail" style="height:455px;">
+              <div class="caption">
+                <h3>Thanks party pppls!!</h3>
+                <p>Some more pararaphs shits here</p>
+                <p>Keep it coming</p>
+                <br>
+                <br>
+                <p>INSERT DATE HERE YALLS</p>
+              </div>
+            </div>
+          </div>
+          <div class="news-section-block">
+            <div class="thumbnail" style="height:455px;">
+              <div class="caption">
+                <h3>Thanks party pppls!!</h3>
+                <p>Some more pararaphs shits here</p>
+                <p>Keep it coming</p>
+                <br>
+                <br>
+                <p>INSERT DATE HERE YALLS</p>
+              </div>
+            </div>
+          </div>
+          <div class="news-section-block">
+            <div class="thumbnail" style="height:455px;">
+              <div class="caption">
+                <h3>Thanks party pppls!!</h3>
+                <p>Some more pararaphs shits here</p>
+                <p>Keep it coming</p>
+                <br>
+                <br>
+                <p>INSERT DATE HERE YALLS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- end carousel -->
+      <!--End of Right -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 7000
+        });
+      });
+    </script>
 	</body>
 </html>
