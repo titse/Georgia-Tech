@@ -1,48 +1,47 @@
 <!DOCTYPE html>
-	<head>
-		<link rel="shortcut icon" href="images/icon.png">
-		<title>Georgia State University | Home</title>
-		<meta name="description" content="Information architecture redesign of Georgia State University academic website (https://www.gsu.edu)">
-		<meta name="author" content="Cindy Chen, Victoria Ly, Tiffany Tse">
-		<meta charset="utf-8">
-		
+  <head>
+    <link rel="shortcut icon" href="images/icon.png">
+    <title>Georgia State University | Home</title>
+    <meta name="description" content="Information architecture redesign of Georgia State University academic website (https://www.gsu.edu)">
+    <meta name="author" content="Cindy Chen, Victoria Ly, Tiffany Tse">
+    <meta charset="utf-8">
+    
     <!--Boostrap Stylesheet-->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--Our Main stylesheet-->
-		<link rel="stylesheet" href="css/style.css">
-		<!--Javascripts-->
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Javascripts-->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="js/boostrap.min.js"></script>
-	</head>
+  </head>
 
-	<body>
+  <body>
     <!--Quick links-->
     <nav class="navbar navbar-default navbar-fixed-top shadow" role="navigation">
         <div class="container-fluid">
           <div class="pull-right">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Home
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="main.html">Homepage</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="academics.html">Academics</a></li>
-                    <li><a href="admissions.html">Admissions</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="athletics.html">Athletics</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Athletics</a></li>
+                    <li><a href="#">Contact</a></li>
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Students
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="students.html">Students Life</a></li>
+                    <li><a href="#">Students Life</a></li>
                     <li><a href="#">Prospective Students</a></li>
                     <li><a href="#">Current Students</a></li>
                     <li><a href="#">Graduate Students</a></li>
@@ -52,12 +51,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Parents &amp; Visitors
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="visitors.html">For Parents and Visitors</a></li>
+                    <li><a href="#">For Parents and Visitors</a></li>
                     <li><a href="#">Campus Map</a></li>
                     <li><a href="#">Parking</a></li>
                     <li><a href="#">Finances</a></li>
@@ -65,12 +64,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Faculty
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="faculty.html">About Faculty &amp; Staff</a></li>
+                    <li><a href="#">About Faculty &amp; Staff</a></li>
                     <li><a href="#">Facilities &amp; Services</a></li>
                     <li><a href="#">Research</a></li>
                     <li><a href="#">Finances</a></li>
@@ -78,12 +77,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
                 Alumni
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="alumni.html">About GSU Alumni</a></li>
+                    <li><a href="#">About GSU Alumni</a></li>
                     <li><a href="#">Getting Involved</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Services</a></li>
@@ -108,25 +107,22 @@
             <img src="images/logobox.png" id="logo">
         </div>
         <li class="current">
-          <a href="main.html">Home</a>
+          <a href="about.html">About GSU</a>
         </li>  
-        <li id="about.html">
-          <a href="about.html">About</a>
+        <li id="about">
+          <a href="about.html">GSU at a Glance</a>
         </li>
         <li id="else">
-          <a href="#">Academics</a>
+          <a href="#">Map of GSU</a>
         </li>
         <li id="should">
-          <a href="#">Admissions</a>
+          <a href="#">Parking</a>
         </li>
         <li id="go">
-          <a href="#">Research</a>
+          <a href="#">FAQ</a>
         </li>
         <li id="here">
-          <a href="#">Athletics</a>
-        </li>
-        <li id="here">
-          <a href="#">Contact</a>
+          <a href="#">History</a>
         </li>
       </ul>
       <!-- End of Left Sidebar-->
@@ -243,5 +239,5 @@
         });
       });
     </script>
-	</body>
+  </body>
 </html>
