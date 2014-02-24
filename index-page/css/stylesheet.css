@@ -22,6 +22,7 @@ body{
   margin:0px;
   padding-left: 0px;
   padding-right: 0px;
+  clear:both
 }
 
 #IA-head{
@@ -122,8 +123,22 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
         vertical-align: bottom;
         z-index: 11000;
         position: relative; 
-        bottom: 0px
-	}
+        bottom: 0px;
+		clear: both;
+}
+/* for redesign-cover page */
+
+.listChanges{
+	width: 25%;	
+	float: left;
+	padding-left: 10%;
+
+	margin: 0;
+}
+.List{
+		list-style-type:none;	
+	
+}
 
 /* Import google font */
 @import url(http://fonts.googleapis.com/css?family=Sintony:400,700|Muli);
