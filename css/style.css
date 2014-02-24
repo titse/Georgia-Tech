@@ -24,6 +24,10 @@ h3 > a:hover{
 	text-decoration: none;
 }
 
+.tabspace {
+	padding-top: 60px;
+}
+
 p,
 ul {
 	margin: 0 auto;
@@ -183,8 +187,8 @@ address{
 	border-top: 1px solid #bbb;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	padding-bottom: 60px;
 }
-
 
 .divider-start{
 	width: 680px;
@@ -192,6 +196,7 @@ address{
 	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	padding-bottom: 60px;
 }
 .about > h3{
 	color: #C0392B;
