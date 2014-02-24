@@ -8,7 +8,7 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px; /*dont change this! for the footer & body*/
     color: black;
-     background: #333;
+    background: #333;
     background-size: 100% 100%; /*to make the page responsive*/
 
 }
@@ -16,54 +16,52 @@ body{
 .IA-title {
 	text-align:center;
 	padding-top: 15px;
-    font-size: 24px;
-    color:white;
-    background-color: #09F;
-    margin:0px;
-    padding-left: 0px;
-    padding-right: 0px;
+  font-size: 24px;
+  color:white;
+  background-color: #09F;
+  margin:0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #IA-head{
-
-     font-family: 'Muli', 'Sintony', Arial, san-serif;  
-     font-weight: 800px;
-     text-decoration: underline;
+  font-family: 'Muli', 'Sintony', Arial, san-serif;  
+  font-weight: 800px;
+  text-decoration: underline;
 }
+
 #GSU{
-    font-family: 'Muli', 'Sintony', Arial, san-serif;
-    font-variant: small-caps;
+  font-family: 'Muli', 'Sintony', Arial, san-serif;
+  font-variant: small-caps;
 }
+
 .container{
-    margin-right: auto;
-    margin-left: auto;
-
-
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-content{
 	padding-left: 50px;
 	padding-right: 50px; 
 	padding-top: 75px; 
-    padding-bottom:30%;
+  padding-bottom:30%;
 
 }
 .table {
-    padding:  0 15px 100px 0;
-    position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
-    min-width: 97%;
+  padding:  0 15px 100px 0;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 25px;
+  min-width: 97%;
 	padding-bottom: 15px;
 }
 .cols{
-   
-    float:left; 
-    display: block;
-    text-align: center; 
-    padding-left: 15px;
+  float:left; 
+  display: block;
+  text-align: center; 
+  padding-left: 15px;
 	margin-top: 15px;
-    margin-right: 15px;
+  margin-right: 15px;
 	padding-bottom:100px
     
 }
