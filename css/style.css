@@ -106,7 +106,7 @@ ul {
 #four-section{
 	margin-top: 10px;
 	background:#1942b3;
-	height:100px;
+	height:120px;
 }
 
 address{
@@ -206,7 +206,7 @@ address{
 a.div-link{
 	display:block;
     width:25%;
-    height:100px; 
+    height:120px; 
     float:left;
     padding-left: 10px;
     padding-right: 10px;
@@ -215,6 +215,7 @@ a.div-link{
 }
 a.div-link > h3{
 	margin-top: 10px;
+	margin-bottom: 5px;
 }
 a.div-link:hover{
 	text-decoration: none;
