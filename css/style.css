@@ -183,6 +183,14 @@ address{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.divider-start{
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 .about > h3{
 	color: #C0392B;
 }
