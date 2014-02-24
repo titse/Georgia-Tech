@@ -1,0 +1,15 @@
+/**
+ * @package             WordPress Widget Bundle
+ * @subpackage  		Twitter plugin
+ * @copyright   		Copyright (c) 2008-2011 Sitebase (http://www.sitebase.be)
+ * @license             http://codecanyon.net/wiki/support/legal-terms/licensing-terms/
+ * @author				Sitebase
+ */
+
+.tweet_avatar{
+	float: left;
+	margin: 5px;
+}
+.tweet_date{
+	font-style: italic;
+}
