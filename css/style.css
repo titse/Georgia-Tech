@@ -94,8 +94,6 @@ ul {
 }
 #title-box{
 	background: #0027af;
-	border: 1px solid #0027af;
-	padding-left: 10px;
 	color: white;
 }
 #title-box >a{
@@ -254,7 +252,7 @@ blockquote p{
 }
 
 #logo {
-	width:200px;
+	width:204px;
 }
 
 .quicklinks {
