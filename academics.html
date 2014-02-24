@@ -20,9 +20,15 @@
     <nav class="navbar navbar-default navbar-fixed-top shadow" role="navigation">
         <div class="container-fluid">
           <div class="pull-right">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search/Directory">
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Home
                 <span class="caret"></span>
                 </a>
@@ -37,7 +43,7 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular">
                 Students
                 <span class="caret"></span>
                 </a>
@@ -51,14 +57,13 @@
                     <li><a href="#">Counseling &amp; Advising</a></li>
                   </ul>
               </li>
-              
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Parents &amp; Visitors
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">For Parents and Visitors</a></li>
+                    <li><a href="visitors.html">For Parents and Visitors</a></li>
                     <li><a href="#">Campus Map</a></li>
                     <li><a href="#">Parking</a></li>
                     <li><a href="#">Finances</a></li>
@@ -66,12 +71,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Faculty
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">About Faculty &amp; Staff</a></li>
+                    <li><a href="faculty.html">About Faculty &amp; Staff</a></li>
                     <li><a href="#">Facilities &amp; Services</a></li>
                     <li><a href="#">Research</a></li>
                     <li><a href="#">Finances</a></li>
@@ -79,23 +84,17 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Alumni
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">About GSU Alumni</a></li>
+                    <li><a href="alumni.html">About GSU Alumni</a></li>
                     <li><a href="#">Getting Involved</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Services</a></li>
                   </ul>
               </li>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search/Directory">
-                </div>
-                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-              </form>
             </ul>
           </div>
         </div>
@@ -104,10 +103,11 @@
 
     <!-- Left Sidebar --> 
     <div id="container">
-      <ul id="left">
+      <div id="left">
         <div id="title-box">
-            <img src="images/logobox.png" id="logo">
-        </div>
+            <a href="main.html"><img src="images/logobox.png" id="logo" alt="logo"></a>
+          </div>
+        <ul>
         <li class="current">
           <a href="academics.html">Academics at GSU</a>
         </li>  
@@ -127,41 +127,41 @@
           <a href="#calendar">Academic Calendar</a>
         </li>
       </ul>
+    </div>
       <!-- End of Left Sidebar-->
 
       <!--Right Side -->
       <div id="right" class="academics">
           <img src="images/banneracademics.png" alt="">
           <div class="divider-start" id="academics">
-            <h2> <a href="#"> Academics at Georgia State University </a></h2>
+            <h2>Academics at Georgia State University</h2>
             <br>
             <p> Georgia State offers nearly 140 academic programs across its eight colleges, schools and institutes. A number of these programs and other university initiatives set the university apart from other urban public research universities, and we invite you to check out Georgia State’s Points of Distinction.</p><br>
             <p>Georgia State is a national leader in graduating students from diverse backgrounds and has achieved national recognition for its commitment to students’ successful progress toward graduation.</p><br>
             <p>Among its most popular majors are: accounting, finance, marketing and managerial services, biology, computer information systems/computer sciences, journalism, film and video, and psychology. The university also has a growing research portfolio, and is pioneering a number of interdisciplinary initiatives that include advanced brain imaging, diagnostics and therapeutics, atypical development and learning, and language research.</p>
-</p>
           </div>
-          <div class="divider-line" id="libraries">
-            <h2> <a href="#"> University Library </a> </h2>
+          <div class="divider-line tabspace" id="libraries">
+            <h2>University Library</h2>
             <br>
-            <p>The <a href="#">University Library</a> is the center of Georgia State’s campus, both literally and figuratively. We invite you to visit the library often (in both its physical and virtual locations), to explore the wealth of resources we provide, and to take advantage of the services that we offer.</p>
+            <p>The University Library is the center of Georgia State’s campus, both literally and figuratively. We invite you to visit the library often (in both its physical and virtual locations), to explore the wealth of resources we provide, and to take advantage of the services that we offer.</p>
           </div>
-          <div class="divider-line" id="degrees">
-            <h2> <a href="#"> Degrees &amp; Majors </a></h2>
+          <div class="divider-line tabspace" id="degrees">
+            <h2>Degrees &amp; Majors</h2>
             <br>
             <p>You can choose from dozens of nationally ranked and recognized academic programs and more than 200 majors and minors at the university that offers the widest variety of fields of study in Georgia.</p>
           </div>
-          <div class="divider-line" id="colleges">
-            <h2> <a href="#"> Colleges </a></h2>
+          <div class="divider-line tabspace" id="colleges">
+            <h2>Colleges</h2>
             <br>
             <a href="#"><img  id="collegepic" src="images/college.png" alt=""></a>
           </div>
-          <div class="divider-line" id="catalog">
-            <h2><a href"#"> General Catalog </a></h2>
+          <div class="divider-line tabspace" id="catalog">
+            <h2>General Catalog</h2>
             <br>
             <p>The requirements for your degree are determined by the catalog under which you began studying at Georgia State. However, other policy changes will affect you, so be sure to read through the current catalog at least once per year.</p>
           </div>
-           <div class="divider-line" id="calendar">
-            <h2> <a href="#"> Academic Calendar </a></h2>
+           <div class="divider-line tabspace" id="calendar">
+            <h2>Academic Calendar</h2>
             <br>
             <p><a href="#">Click to view the full Academic/Registration Calendar.</a></p>
           </div>

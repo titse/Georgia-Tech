@@ -20,9 +20,15 @@
     <nav class="navbar navbar-default navbar-fixed-top shadow" role="navigation">
         <div class="container-fluid">
           <div class="pull-right">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search/Directory">
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Home
                 <span class="caret"></span>
                 </a>
@@ -32,12 +38,12 @@
                     <li><a href="academics.html">Academics</a></li>
                     <li><a href="admissions.html">Admissions</a></li>
                     <li><a href="research.html">Research</a></li>
-                    <li><a href="athletics.html">Athletics</a></li>
+                    <li><a href="http://www.georgiastatesports.com/">Athletics</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular">
                 Students
                 <span class="caret"></span>
                 </a>
@@ -52,12 +58,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Parents &amp; Visitors
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">For Parents and Visitors</a></li>
+                    <li><a href="visitors.html">For Parents and Visitors</a></li>
                     <li><a href="#">Campus Map</a></li>
                     <li><a href="#">Parking</a></li>
                     <li><a href="#">Finances</a></li>
@@ -65,12 +71,12 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Faculty
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">About Faculty &amp; Staff</a></li>
+                    <li><a href="faculty.html">About Faculty &amp; Staff</a></li>
                     <li><a href="#">Facilities &amp; Services</a></li>
                     <li><a href="#">Research</a></li>
                     <li><a href="#">Finances</a></li>
@@ -78,23 +84,17 @@
                   </ul>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#popular" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Alumni
                 <span class="caret"></span>
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">About GSU Alumni</a></li>
+                    <li><a href="alumni.html">About GSU Alumni</a></li>
                     <li><a href="#">Getting Involved</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Services</a></li>
                   </ul>
               </li>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search/Directory">
-                </div>
-                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-              </form>
             </ul>
           </div>
         </div>
@@ -103,38 +103,37 @@
 
     <!-- Left Sidebar --> 
     <div id="container">
-      <ul id="left">
+      <div id="left">
         <div id="title-box">
-            <img src="images/logobox.png" id="logo">
+          <a href="main.html"><img src="images/logobox.png" id="logo" alt="logo"></a>
         </div>
-        <li class="current">
-          <a href="contact.html">Contact GSU</a>
-        </li>  
-        <li>
-          <a href="#frc">Frequently Requested Contacts</a>
-        </li>
-        <li>
-          <a href="#mail">Mailing Address</a>
-        </li>
-        <li>
-          <a href="#emergency">Emergency Contacts</a>
-        </li>
-      </ul>
+        <ul>
+          <li class="current">
+            <a href="contact.html">Contact GSU</a>
+          </li>  
+          <li>
+            <a href="#frc">Frequently Requested Contacts</a>
+          </li>
+          <li>
+            <a href="#mail">Mailing Address</a>
+          </li>
+          <li>
+            <a href="#emergency">Emergency Contacts</a>
+          </li>
+        </ul>
+      </div>
       <!-- End of Left Sidebar-->
 
       <!--Right Side -->
-  <div id="right" class="contact">
-    <img src="images/bannercontact.png" alt="">
-    <div class="divider-start" id="contact">
-      <h2>Contact Georgia State University</h2>
-      <br>
-      <p>The Georgia State University operator can be reached at (404) 413-2000. A&nbsp;<a href="#">campus directory&nbsp;</a>is available for locating a specific phone number by name.</p>
-    </div>
-
-
-    <div class="divider-line" id="frc">
+    <div id="right" class="contact">
+      <img src="images/bannercontact.png" alt="">
+      <div class="divider-start" id="contact">
+        <h2>Contact Georgia State University</h2>
+        <br>
+        <p>The Georgia State University operator can be reached at (404) 413-2000. A&nbsp;<a href="#">campus directory&nbsp;</a>is available for locating a specific phone number by name.</p>
+      </div>
+    <div class="divider-line tabspace" id="frc">
       <h2 >Frequently Requested Contacts</h2>
-
         <br><p>
           <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
           <colgroup>
@@ -179,8 +178,7 @@
           </tr>
           </tbody>
           </table></p>
-
-    <div class="divider-line" id="mail">
+    <div class="divider-line tabspace" id="mail">
       <h2 >Mailing Address</h2>
       <br>
           <p>P.O. Box 3965<br>
@@ -192,11 +190,9 @@
           P.O. Box XXXX<br>
           Atlanta, GA 30302-XXXX</p><br>
           <p>Note: The four-digit P.O. Box number is also the four-digit zip code extension.</p>
-
     </div>
-    <div class="divider-line" id="emergency">
+    <div class="divider-line tabspace" id="emergency">
     <h2 >Emergency Contacts</h2>
-
         <br>
         <p>
           <table border="0" cellspacing="0" cellpadding="0">
@@ -245,17 +241,12 @@
           </tr>
           </tbody>
           </table>
-          <p></p>
-          </p>
-        </div>
-        <div class="divider-line" id="FAQ"></div>
       </div>
-      <!--End of Right -->
-
-
-
-      <div class="clear"></div>
     </div>
+      <!--End of Right -->
+  </div>
+  <div class="clear"></div>
+  </div>
 
     <div class="footer">
       <p>Copyright &copy; 2014 <a href="main.html">Georgia State University</a> | Atlanta, GA 30302 | (404) 413-2000
