@@ -279,6 +279,7 @@ blockquote p{
 	height: 100%;
 }
 
+<<<<<<< HEAD
 .contacttable {
 	width: 100%;
 	border: 0;
@@ -292,3 +293,8 @@ blockquote p{
 }
 
 
+=======
+.imgpad {
+	padding-bottom: 10px;
+}
+>>>>>>> 69f413c7efdaae0990040e1e62937abdac5f050c
