@@ -279,13 +279,12 @@ blockquote p{
 	height: 100%;
 }
 
-<<<<<<< HEAD
 .contacttable {
 	width: 100%;
 	border: 0;
-	text-align: right;
-	padding-right: 10px;
-	padding-left: 10px;
+	text-align: left;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .class {
@@ -297,4 +296,4 @@ blockquote p{
 .imgpad {
 	padding-bottom: 10px;
 }
->>>>>>> 69f413c7efdaae0990040e1e62937abdac5f050c
+
