@@ -4,66 +4,67 @@
 
 body{
   
-   /*  background-image:url('../img/blue-background.jpg' ); */
+   /* background-image:url('../img/blue-background.jpg' ); */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px; /*dont change this! for the footer & body*/
     color: black;
-    background: #333;
+     background: #333;
     background-size: 100% 100%; /*to make the page responsive*/
 
 }
 
 .IA-title {
-	text-align:center;
-	padding-top: 15px;
-  font-size: 24px;
-  color:white;
-  background-color: #09F;
-  margin:0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  clear:both
+text-align:center;
+padding-top: 15px;
+    font-size: 24px;
+    color:white;
+    background-color: #09F;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #IA-head{
-  font-family: 'Muli', 'Sintony', Arial, san-serif;  
-  font-weight: 800px;
-  text-decoration: underline;
-}
 
+     font-family: 'Muli', 'Sintony', Arial, san-serif;
+     font-weight: 800px;
+     text-decoration: underline;
+}
 #GSU{
-  font-family: 'Muli', 'Sintony', Arial, san-serif;
-  font-variant: small-caps;
+    font-family: 'Muli', 'Sintony', Arial, san-serif;
+    font-variant: small-caps;
 }
-
 .container{
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+
 }
 
 .page-content{
-	padding-left: 50px;
-	padding-right: 50px; 
-	padding-top: 25px; 
-  padding-bottom:30%;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 75px;
+    padding-bottom:30%;
 
 }
 .table {
-  padding:  0 5px 100px 0;
-  position: relative;
-  margin-left: 100px;
-  margin-right: 25px;
-  min-width: 97%;
-	padding-bottom: 15px;
+    padding: 0 15px 100px 0;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 97%;
+padding-bottom: 15px;
 }
 .cols{
-  float:left; 
-  display: block;
-  text-align: center; 
-  padding-left: 15px;
-	margin-top: 15px;
-  margin-right: 15px;
-	padding-bottom:100px
+   
+    float:left;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+margin-top: 15px;
+    margin-right: 15px;
+padding-bottom:100px
     
 }
 
@@ -77,16 +78,16 @@ body{
 }
 
 .pic {
-	/*the pictures are 400x200*/
-  border: 8px solid #fff; 
+/*the pictures are 400x200*/
+  border: 8px solid #fff;
   float: left;
   height: 410px;
-  width:  210px;
+  width: 210px;
 
   overflow: hidden;
    transition: width 2s;
   -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111; 
+          box-shadow: 5px 5px 5px #111;
 }
 /*B&W*/
 .bw {
@@ -108,9 +109,9 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
 
 
 #footer {
-		width:100%;
+width:100%;
         padding:40px 0 100px 0;
-		float:center;
+float:center;
         margin-top: 30px;
         margin-left: 0px;
         margin-right:0px;
@@ -122,22 +123,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
         clear: both;
         vertical-align: bottom;
         z-index: 11000;
-        position: relative; 
-        bottom: 0px;
-		clear: both;
-}
-/* for redesign-cover page */
-
-.listChanges{
-	width: 25%;	
-	float: left;
-	padding-left: 10%;
-
-	margin: 0;
-}
-.List{
-		list-style-type:none;	
-	
+        position: relative;
+        bottom: 0px
 }
 
 /* Import google font */
